@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    70deg,
+    rgba(202, 168, 45, 0.685),
+    rgb(0, 30, 128)
+  );
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+.btn {
+  background-color: orange;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  margin: 10px;
+  padding: 20px 30px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.5;
+}
+.btn:focus {
+  outline: none;
+  transform: scale(0.96);
+}
